@@ -58,7 +58,12 @@ cd chemin\vers\tunnel-auto
 ```
 
 ## Arrêt
-- Créer un fichier `stop.flag` dans le dossier du script
+Naviguer vers le dossier :
+```powershell
+cd chemin\vers\tunnel-auto
+.\stop-tunnel.ps1
+```
+- Cela va créer un fichier `stop.flag` dans le dossier du script
 - Le script s'arrêtera proprement
 
 ## Logs
